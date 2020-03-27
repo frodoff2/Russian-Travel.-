@@ -1,0 +1,33 @@
+.width_big{
+    max-width: 1184px;   
+    margin: 0 auto;
+}
+
+@media (max-width: 1235px) {
+    .width_big {
+       max-width: 928px;
+       margin: 0 auto;      
+   }
+}
+
+@media (max-width: 1023px){
+    .width_big {
+        width: 720px;
+        height: 52px;
+        margin: 0 auto;      
+    }
+}
+
+@media (max-width: 766px){
+    .width_big {
+        width: 343px;
+        margin: 0 auto;   
+    }
+}
+
+@media (max-width: 366px){
+    .width_big {
+        width: 288px;
+        margin: 0 auto;   
+    }
+}

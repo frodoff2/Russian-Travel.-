@@ -1,0 +1,20 @@
+
+.place__website_margin{
+    margin-top: 160px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1023px){
+
+    .place__website_margin{
+        margin-top: 72px;        
+    }
+}
+@media (max-width: 766px){
+.place__website_margin{
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+    
+}
+}

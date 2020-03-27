@@ -1,0 +1,27 @@
+
+.container__image{
+    max-width: 148px;
+    height: 98px;
+}
+
+@media (max-width: 1235px) {
+.container__image{
+    width: 97px;
+    height: 97px;
+}
+}
+@media (max-width: 1023px){
+.container__image{
+    width: 97px;
+    height: 97px;
+    order: 1;
+    align-self: center;        
+}
+}
+@media (max-width: 766px){
+.container__image{
+    margin-top: 48px;
+}
+}
+
+

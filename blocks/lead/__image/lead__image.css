@@ -1,0 +1,18 @@
+.lead__image{
+    margin-top: 78px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 766px){
+
+    .lead__image{
+        margin-top: 31px;
+    }
+}
+
+@media (max-width: 366px){
+    .lead__image{
+        margin-top: 31px;
+    }
+}

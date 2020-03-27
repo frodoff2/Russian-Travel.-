@@ -1,0 +1,29 @@
+.container__quote_small{
+    max-width: 382px;
+    height: 37px;
+    flex-wrap: wrap;
+}
+@media (max-width: 1235px) {
+.container__quote_small{
+    width: 296px;
+    height: 72px;
+    flex-wrap: wrap;
+}
+}
+@media (max-width: 1023px){
+.container__quote_small{
+    width: 382px;
+    height: 47px;
+}
+}
+@media (max-width: 766px){
+.container__quote_small{
+    max-width: 343px;
+}
+}
+
+@media (max-width: 366px){
+    .container__quote_small{
+     max-width: 288px;
+}
+}

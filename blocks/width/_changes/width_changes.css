@@ -1,0 +1,33 @@
+
+
+.width_changes{
+    max-width: 1184px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1235px) {
+   
+    .width_changes{
+        width: 1045px;
+    }
+}
+
+@media (max-width: 1023px){
+    
+    .width_changes{
+        width: 768px;
+    }
+}
+
+@media (max-width: 766px){
+    .width_changes{
+        width: 375px;
+    }
+}
+
+@media (max-width: 366px){
+
+    .width_changes{
+        width: 320px;
+    }
+}

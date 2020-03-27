@@ -1,0 +1,38 @@
+
+.content-title{
+    font-family: 'Inter Bolder', 'Arial', sans-serif;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+
+@media (max-width: 1023px){
+
+    .content-title{
+        width: 660px;
+        height: 103px;
+        font-size: 42px;
+        line-height: 46px;
+        margin: 0;
+    }
+}
+@media (max-width: 766px){
+.content-title{
+    width: 343px;
+    height: 80px;
+    margin: 0 auto;
+    font-size: 32px;
+    line-height: 35px;
+    flex-wrap: wrap;
+}
+}
+@media (max-width: 366px){
+.content-title{
+    width: 288px;
+    height: 112px;   
+}
+}

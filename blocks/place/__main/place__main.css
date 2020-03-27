@@ -1,0 +1,31 @@
+
+.place__main{
+    margin-top: 0;
+    margin-right: 40px;
+}
+
+@media (max-width: 1235px) {
+
+    .place__main{
+        margin-right: 32px;
+    }
+}
+
+
+@media (max-width: 1023px){
+    .intro__width{
+        width: 93%;
+        height: 384px;
+        padding-bottom: 97px;
+        margin: auto;
+    }
+    .place__main{
+        margin-right: 28px;
+    }
+}
+@media (max-width: 766px){
+.place__main{
+    width: 100%;
+}
+}
+

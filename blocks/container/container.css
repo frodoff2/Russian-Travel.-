@@ -1,0 +1,33 @@
+@import url(./__author/container__author.css); 
+@import url(./__comment/container__comment.css); 
+@import url(./__comment/_change/container__comment_change_height.css); 
+@import url(./__image/container__image.css); 
+@import url(./__quote/container__quote.css); 
+@import url(./__quote/_large/container__quote_large.css); 
+@import url(./__quote/_medium/container__quote_medium.css); 
+@import url(./__quote/_small/container__quote_small.css); 
+
+.container{
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+@media (max-width: 1235px) {
+
+    .container{ 
+        max-width: 925px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 1023px){
+.container{
+    max-width: 382px;
+    height: 806px;
+    margin: 0 auto;
+    display: block;
+}
+}
+

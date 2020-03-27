@@ -1,0 +1,18 @@
+.container__author{
+    font-family: 'Inter Bolder', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 33px;
+}
+
+@media (max-width: 1235px) {
+    .container__author{
+    margin-top: 0;
+    }
+}
+@media (max-width: 1023px){
+.container__author{
+    order: 2;
+    margin-top: 5px;
+}
+}

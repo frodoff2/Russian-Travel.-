@@ -1,0 +1,20 @@
+.video__duration{
+    font-family: 'Inter Bolder', 'Arial', sans-serif;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    margin-top: 94px;
+    margin-left: 30px;
+}
+
+@media (max-width: 1235px) {
+
+    .video__duration{
+        margin-top: 54px;
+    }
+}
+@media (max-width: 1023px){
+.video__duration{
+    margin-top: 17px;
+}
+}

@@ -1,0 +1,32 @@
+.container__quote{
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1023px){
+    .container__quote{
+        order: 3;
+        margin-top: 24px;
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    }
+@media (max-width: 766px){
+    .container__quote{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 16px;
+        line-height: 23px;  
+   }
+   }
+
+@media (max-width: 366px){
+.container__quote{
+    max-width: 288px;
+}
+}
+

@@ -1,0 +1,16 @@
+.video__container{
+    display: flex;
+}
+
+
+@media (max-width: 766px){
+
+    .video__container{
+        display: block;
+    }
+}
+@media (max-width: 366px){
+    .video__container{
+    margin-bottom: 64px;
+}
+}

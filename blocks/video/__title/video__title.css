@@ -1,0 +1,18 @@
+.video__title{
+    font-family: 'Inter Bolder', 'Arial', sans-serif;
+    font-size: 36px;
+    line-height: 39px;
+    width: 322px;
+    margin-top: 12px;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1023px){
+    .video__title{
+        font-size: 24px;
+        line-height: 26px;
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+}

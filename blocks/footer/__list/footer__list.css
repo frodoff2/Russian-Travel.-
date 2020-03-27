@@ -1,0 +1,14 @@
+.footer__list:last-child {
+    margin-right: 0;
+}
+
+
+@media (max-width: 766px){
+
+    .footer__list{
+        padding-top: 32px;
+    }
+    .footer__list:first-child{
+        padding-top: 0;
+}
+}

@@ -1,0 +1,36 @@
+.cover__title{
+    font-family: 'Inter Bolder', 'Arial', sans-serif;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center; 
+    z-index: 2;
+    color: #FFFDFD;
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+
+@media (max-width: 1235px) {
+    .cover__title{
+        flex-wrap: wrap;
+        width: 550px;
+        height: 80px;
+        margin: 0 auto;
+        padding-top: 70px;
+    }
+}
+@media (max-width: 1023px){
+.cover__title{
+    width: 550px;
+    height: 170px;
+    justify-content: center;
+}
+}
+@media (max-width: 766px){
+.cover__title{
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 auto;
+    width: 250px;
+    height: 80px;
+}
+}
