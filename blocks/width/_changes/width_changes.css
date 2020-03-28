@@ -15,19 +15,19 @@
 @media (max-width: 1023px){
     
     .width_changes{
-        width: 768px;
+        max-width: 768px;
     }
 }
 
 @media (max-width: 766px){
     .width_changes{
-        width: 375px;
+        max-width: 375px;
     }
 }
 
 @media (max-width: 366px){
 
     .width_changes{
-        width: 320px;
+        max-width: 320px;
     }
 }
