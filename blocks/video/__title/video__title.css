@@ -16,3 +16,9 @@
         margin-bottom: 12px;
     }
 }
+
+@media (max-width: 1023px){
+    .video__title{
+        max-width: 256px;
+    }
+}

@@ -12,7 +12,7 @@
 @media (max-width: 1235px) {
     .cover__title{
         flex-wrap: wrap;
-        width: 550px;
+        max-width: 550px;
         height: 80px;
         margin: 0 auto;
         padding-top: 70px;

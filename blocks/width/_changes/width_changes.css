@@ -8,7 +8,7 @@
 @media (max-width: 1235px) {
    
     .width_changes{
-        width: 1045px;
+        max-width: 1045px;
     }
 }
 

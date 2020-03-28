@@ -1,7 +1,23 @@
 
 .page{
     background-color: #2A2C2F;
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     color: #FFFFFF;
+}
+
+
+@media (max-width: 1235px) {
+    .page{
+        max-width: 1235px;
+    }
+}
+
+
+@media (max-width: 366px){
+
+    .header{
+        width: 288px;
+        margin-top: 16px;
+    }
 }

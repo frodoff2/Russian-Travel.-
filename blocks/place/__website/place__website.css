@@ -19,7 +19,7 @@
         margin: auto;
     }
     .place__website{
-        width: 352px;
+        max-width: 352px;
         margin-top: 141px;
     }
 }
@@ -28,5 +28,10 @@
     margin-top: 20px;
     margin-left: 16px;
     margin-right: 16px;
+}
+}
+@media (max-width: 366px){
+    .place__website{
+    max-width: 288px;
 }
 }

@@ -8,7 +8,7 @@
 
 @media (max-width: 1235px) {
 .cover__image{
-    width: 1024px;
+    max-width: 1024px;
     overflow: hidden;
     justify-content: center;
     align-items: center;

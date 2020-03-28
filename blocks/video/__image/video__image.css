@@ -26,3 +26,9 @@
     padding-left: 0;
 }
 }
+
+@media (max-width: 366px){
+    .video__image{
+       max-width: 288px;
+    }
+}
