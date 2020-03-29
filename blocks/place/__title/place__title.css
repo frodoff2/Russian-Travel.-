@@ -4,6 +4,7 @@
     line-height: 65px;
     margin-top: 92px;
     margin-bottom: 0;
+    padding-bottom: 0;
     max-width: 457px;
 }
 
@@ -31,10 +32,11 @@
 .place__title{
     font-size: 32px;
     line-height: 35px;
-    max-width: 343px;
+    max-width: 288px;
     height: 40px;
-    margin-left: 15px;
     margin-top: 0;
     padding-top: 64px;
+    margin-left: 16px;
+
 }
 }

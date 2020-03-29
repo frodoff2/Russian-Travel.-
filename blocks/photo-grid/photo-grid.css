@@ -31,17 +31,18 @@
         grid-template-rows: repeat(6, 1fr);
         grid-gap: 16px;
         margin-top: 0;
-        padding-top: 50px;
+        padding-top: 80px;
         padding-bottom: 1357px;
+
     } 
 }
 @media (max-width: 766px){
 .photo-grid {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    padding-top: 310px;
     grid-gap: 16px;
-    padding-bottom: 2910px;
+    padding-top: 97px;
+    padding-bottom: 2950px;
 }
 }
 @media (max-width: 366px){

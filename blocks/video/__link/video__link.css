@@ -2,7 +2,32 @@
     color: white;
     display: block;
     text-decoration: none;
-    width: 100%;
-    height: 100%;
     margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 5px;
+}
+
+
+.video__link:hover .video__illustration {
+    opacity: 0.7;
+}
+
+
+@media (max-width: 1023px){
+.video__link{
+    margin: 0 auto;                  
+}
+}
+@media (max-width: 766px){
+    .video__link{
+      margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 366px){
+    .video__link{
+      max-width: 288px;
+    }
 }

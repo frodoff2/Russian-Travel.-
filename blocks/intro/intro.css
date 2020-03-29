@@ -2,17 +2,18 @@
 @import url(./__list/_normal/intro__list_normal.css); 
 @import url(./__text/intro__text.css); 
 @import url(./__title/intro__title.css); 
-@import url(./__width/intro__width.css); 
 
 
 
 .intro{
     padding-top: 80px;
+    margin: auto;
 }
 
-@media (max-width: 366px){
-
+@media (max-width: 1023px){
     .intro{
-        padding-bottom: 64px;
+            width: 93%;
+            margin: auto;
     }
 }
+

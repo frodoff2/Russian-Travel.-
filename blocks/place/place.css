@@ -9,26 +9,37 @@
 @import url(./__website/place__website.css); 
 @import url(./__website/_margin/place__website_margin.css); 
 @import url(./__website/_margins/place__website_margins.css); 
+@import url(./_change/place_change_width.css);
+@import url(./_small/place_small_width.css);
+@import url(./__title/_margin/place__title_margin.css);
 
 
 .place{
-    margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 0;
 }
 
 @media (max-width: 1023px){
     .place{
-        width: 720px;
+        max-width: 720px;
         margin-top: 72px;
+        grid-gap: 0px;
     }
 }
 
 @media (max-width: 766px){
 .place{
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     margin-top: 0;
     padding-top: 0;
-    width: 100%;
+    margin: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
 }
 }
 

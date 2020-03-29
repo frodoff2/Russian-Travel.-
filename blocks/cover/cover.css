@@ -14,6 +14,14 @@
     opacity: 0.3;
 }
 
+
+@media (max-width: 1235px) {
+    .cover{
+         margin: auto;
+         margin-left: 0;      
+    }
+}
+
 @media (max-width: 766px){
     .cover{
         margin-top: 0;
@@ -24,6 +32,6 @@
 @media (max-width: 366px){
     .cover{
      margin-top: 0;
-     padding-top: 64px;
+     padding-top: 0;
 }
 }

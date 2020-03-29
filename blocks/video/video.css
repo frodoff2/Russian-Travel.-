@@ -5,11 +5,10 @@
 @import url(./__illustration/video__illustration.css); 
 @import url(./__image/video__image.css); 
 @import url(./__link/video__link.css); 
-@import url(./__picture/video__picture.css); 
 @import url(./__subtitile/video__subtitle.css); 
 @import url(./__subtitile/_change/video__subtitle_change_margin.css); 
-@import url(./__text/video__text.css); 
 @import url(./__title/video__title.css); 
+@import url(./__title/_change/video__title_change_margin.css);
 
 
 @media (max-width: 1023px){
@@ -21,8 +20,16 @@
 
 @media (max-width: 766px){
 .video{
-    margin-top: 264px;
+    margin-top: 0;
 }
 }
+
+@media (max-width: 366px){
+    .video{
+        width: 288px;
+        margin: auto;
+    }
+    }
+    
 
 

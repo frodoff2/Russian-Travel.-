@@ -18,6 +18,8 @@
 .footer{
   padding-bottom: 24px;
   padding-top: 102px;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 }
 @media (max-width: 766px){
@@ -25,10 +27,12 @@
   display: block;
   margin-top: 64px;
   padding-bottom: 375px;
+  max-width: 282px;
 }
 }
 @media (max-width: 366px){
 .footer{
   margin-top: 64px;
+  max-width: 183px;
 }
 }

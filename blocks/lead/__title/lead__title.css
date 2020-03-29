@@ -4,6 +4,9 @@
     text-align: center;
     margin-bottom: 0;
     font-family: 'Inter Bolder', 'Arial', sans-serif;
+    max-width: 784px;
+    margin: auto;
+    padding-top: 48px;
  
 }
 
@@ -15,7 +18,6 @@
         width: 330px;
         height: 96px;
         margin: 0 auto; 
-        margin-top: 48px;     
     }
 }
 @media (max-width: 366px){
@@ -25,6 +27,5 @@
        max-width: 288px;
         height: 96px;
         margin: 0 auto; 
-        margin-top: 48px;     
     }
 }

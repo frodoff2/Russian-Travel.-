@@ -8,26 +8,30 @@
 @media (max-width: 1235px) {
    
     .width_changes{
-        max-width: 1045px;
+        max-width: 1235px;
+        margin-top: 102px;
+
     }
 }
 
 @media (max-width: 1023px){
     
     .width_changes{
-        max-width: 768px;
+        max-width: 1023px;
+        
     }
 }
 
 @media (max-width: 766px){
     .width_changes{
-        max-width: 375px;
+        max-width: 766px;
     }
 }
 
 @media (max-width: 366px){
 
     .width_changes{
-        max-width: 320px;
+        max-width: 366px;
+        margin-top: 64px;
     }
 }

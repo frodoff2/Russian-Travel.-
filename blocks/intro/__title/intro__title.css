@@ -9,10 +9,10 @@
 @media (max-width: 766px){
 
     .intro__title{
-        font-size: 32px;
-        line-height: 35px;
-        width: 250px;
+        font-size: 40px;
+        line-height: 44px;
         height: 72px;
+        margin-bottom: 32px;
     }
 }
 @media (max-width: 366px){
@@ -22,5 +22,6 @@
     line-height: 35px;
     width: 250px;
     height: 72px;
+    margin-bottom: 32px;
 }
 }

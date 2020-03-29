@@ -6,26 +6,26 @@
 
 @media (max-width: 1235px) {
     .width_small{
-        width: 928px;
+        max-width: 928px;
     }
 }
 
 @media (max-width: 1023px){ 
     .width_small{
-        width: 768px;
-    }
+        max-width: 720px;
+        }
 }
 
 @media (max-width: 766px){
     .width_small{
-        width: 100%;
+        max-width: 766px;
         margin: 0 auto;      
     }
 }
 
 @media (max-width: 366px){
     .width_small{
-        width: 320px;
+        max-width: 318px;
         margin: 0 auto;      
     }
 }

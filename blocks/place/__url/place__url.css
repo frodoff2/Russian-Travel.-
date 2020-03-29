@@ -2,10 +2,13 @@
     font-family: 'Inter', 'Arial', sans-serif;
     font-size: 18px;
     line-height: 30px;
-    text-decoration-line: underline;
-    height: 18px;
+    text-decoration: underline;
+    height: 25px;
     margin-top: 0;
+    padding-top: 0;
     margin-bottom: 0;
+    margin: 0 auto;
+    max-width: 484px;
 }
 
 @media (max-width: 766px){
