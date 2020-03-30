@@ -11,7 +11,9 @@
 @import url(./__website/_margins/place__website_margins.css); 
 @import url(./_change/place_change_width.css);
 @import url(./_small/place_small_width.css);
-@import url(./__title/_margin/place__title_margin.css);
+@import url(./__paragraph/_large/place_paragraph_large.css);
+@import url(./__paragraph/_smaller/place__paragraph_smaller.css);
+@import url(./__paragraph/_bigger/place__paragraph_bigger.css);
 
 
 .place{
@@ -32,8 +34,8 @@
 @media (max-width: 766px){
 .place{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
     margin-top: 0;
     padding-top: 0;
     margin: auto;

@@ -42,15 +42,14 @@
     grid-template-rows: repeat(12, 1fr);
     grid-gap: 16px;
     padding-top: 97px;
-    padding-bottom: 2950px;
+    padding-bottom: 2930px;
 }
 }
 @media (max-width: 366px){
 .photo-grid{
     width: 288px;
-    height: 2392px;
-    margin-bottom: 570px;
     margin-top: 64px;
+    padding-bottom: 2400px;
 }
 }
 

@@ -29,13 +29,14 @@
 @media (max-width: 766px){
     .place__paragraph_big{
     max-width: 343px;
+
 }
 }
 
 @media (max-width: 366px){
     .place__paragraph_big{
     max-width: 288px;
-    max-height: 326px;
-    padding-bottom: 48px;
+    max-height: 353px;
+    padding-bottom: 0px;
 }
 }
