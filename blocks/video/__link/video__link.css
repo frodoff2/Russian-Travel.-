@@ -7,11 +7,13 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     border-radius: 5px;
+    background: #000000;
 }
 
 
 .video__link:hover .video__illustration {
-    opacity: 0.3;
+    opacity: 0.5;
+    background: #000000;
 }
 
 

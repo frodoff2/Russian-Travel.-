@@ -1,0 +1,42 @@
+
+.place__paragraph_margins{
+    max-width: 484px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0;
+    margin-top: 60px;
+}
+
+
+@media (max-width: 1235px) {
+ 
+    .place__paragraph_margins{
+        width: 456px;
+    }
+}
+
+@media (max-width: 1023px){
+    .place__paragraph_margins{
+        max-width: 352px;
+        max-height: 197px;
+        margin-top: 68px;
+        font-size: 16px;
+        line-height: 27px;
+
+    }
+}
+@media (max-width: 766px){
+.place__paragraph_margins{
+    margin-top: 20px;
+    padding-top: 0;
+
+}
+}
+
+@media (max-width: 366px){
+.place__paragraph_margins{
+    width: 288px;
+    max-height: 488px;
+}
+}

@@ -14,6 +14,7 @@
 @import url(./__paragraph/_large/place_paragraph_large.css);
 @import url(./__paragraph/_smaller/place__paragraph_smaller.css);
 @import url(./__paragraph/_bigger/place__paragraph_bigger.css);
+@import url(./__paragraph/_margins/place__paragraph_margins.css);
 
 
 .place{
