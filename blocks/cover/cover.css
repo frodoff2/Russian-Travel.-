@@ -2,19 +2,10 @@
 @import url(./__image/cover__image.css); 
 @import url(./__subtitle/cover__subtitle.css); 
 @import url(./__title/cover__title.css); 
+@import url(./__link/cover__link.css);
 
 .cover{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     padding-top: 102px;
-
-}
-
-.cover:hover .cover__image {
-    opacity: 0.7;
-    background: #2A2C2F;
-
 }
 
 
@@ -28,7 +19,7 @@
 @media (max-width: 766px){
     .cover{
         margin-top: 0;
-        padding-top: 42px;
+        padding-top: 18px;
     }
 }
 

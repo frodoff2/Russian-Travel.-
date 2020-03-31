@@ -48,7 +48,8 @@
 @media (max-width: 366px){
 .photo-grid{
     width: 288px;
-    margin-top: 64px;
+    margin-top: 0px;
+    padding-top: 64px;
     padding-bottom: 2400px;
 }
 }

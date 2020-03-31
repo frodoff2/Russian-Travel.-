@@ -7,6 +7,7 @@
 .footer{
     display: flex; 
     padding-top: 160px;
+    padding-bottom: 20px;
   }
   
   @media (max-width: 1235px) {
@@ -16,7 +17,6 @@
 }
 @media (max-width: 1023px){
 .footer{
-  padding-bottom: 24px;
   padding-top: 102px;
   padding-left: 23px;
   padding-right: 23px;
@@ -25,14 +25,16 @@
 @media (max-width: 766px){
 .footer{
   display: block;
-  margin-top: 64px;
+  margin-top: 0px;
+  padding-top: 64px;
   padding-bottom: 375px;
   max-width: 282px;
 }
 }
 @media (max-width: 366px){
 .footer{
-  margin-top: 64px;
+  margin-top: 0px;
+  padding-top: 64px;
   max-width: 183px;
 }
 }

@@ -15,7 +15,8 @@
 @import url(./__paragraph/_smaller/place__paragraph_smaller.css);
 @import url(./__paragraph/_bigger/place__paragraph_bigger.css);
 @import url(./__paragraph/_margins/place__paragraph_margins.css);
-
+@import url(./_change/place_change_margin.css);
+@import url(./_changes/place_changes_margin.css);
 
 .place{
     display: grid;

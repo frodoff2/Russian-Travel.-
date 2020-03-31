@@ -1,0 +1,13 @@
+.cover__link{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background: #2A2C2F;
+    text-decoration: none;
+}
+
+.cover__link:hover .cover__image {
+    opacity: 0.7;
+    background: #2A2C2F;
+}
+
